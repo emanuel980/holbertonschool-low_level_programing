@@ -1,9 +1,9 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdio>
 /**
  * main - Entry point
  *
- * Return: always 0 (sucess)
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 {
@@ -11,6 +11,7 @@ int main(void)
 	num = 0;
 	while (num < 100)
 	{
+
 		num++;
 		if ((num % 3) != 0 && (num % 5) != 0)
 		{
@@ -30,7 +31,9 @@ int main(void)
 		}
 		if (num < 100)
 			putchar(32);
+
 	}
 	putchar('\n');
 	return (0);
 }
+
